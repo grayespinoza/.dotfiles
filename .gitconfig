@@ -1,0 +1,8 @@
+[commit]
+  gpgsign = true
+[init]
+  defaultBranch = main
+[user]
+  name = Grey
+  email = grey@grayespinoza.dev
+  signingkey = 3299045B7DB87A5D
