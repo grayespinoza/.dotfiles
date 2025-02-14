@@ -1,6 +1,8 @@
 {
   "github-theme": { "branch": "main", "commit": "c106c9472154d6b2c74b74565616b877ae8ed31d" },
   "lazy.nvim": { "branch": "main", "commit": "f15a93907ddad3d9139aea465ae18336d87f5ce6" },
-  "nvim-treesitter": { "branch": "master", "commit": "e411cf2c8adea87acda6c3d634a375addbfff88e" },
-  "vimtex": { "branch": "master", "commit": "10c6c1672919db9d0687e5cb74d613dc811b1684" }
+  "nvim-treesitter": { "branch": "master", "commit": "6d957c22cb48a734b009a69d03c18d20042c4754" },
+  "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
+  "vimtex": { "branch": "master", "commit": "10c6c1672919db9d0687e5cb74d613dc811b1684" },
+  "yazi.nvim": { "branch": "main", "commit": "a7b9350d8056889bf20e5602b832e3e0430019f8" }
 }
