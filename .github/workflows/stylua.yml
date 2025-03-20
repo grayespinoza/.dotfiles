@@ -1,0 +1,21 @@
+name: StyLua Formatting
+on: [push, pull_request]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Run StyLua
+      uses: JohnnyMorganz/stylua-action@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        version: latest
+        args: .
+    - name: Push
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Formatting using StyLua"
