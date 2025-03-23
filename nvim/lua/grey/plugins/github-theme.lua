@@ -6,7 +6,7 @@ return {
   opts = {
     options = { transparent = true },
   },
-  config = function()
+  init = function()
     vim.cmd("colorscheme github_dark_high_contrast")
   end,
 }
