@@ -21,8 +21,6 @@ return {
   },
   opts = {
     open_for_directories = false,
-    keymaps = {
-      show_help = "<f1>",
-    },
+    keymaps = { show_help = "<f1>" },
   },
 }
