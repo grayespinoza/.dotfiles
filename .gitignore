@@ -1,3 +1,4 @@
 .config/nvim/lazy-lock.json
 .config/yazi/package.toml
 .config/yazi/plugins/git.yazi
+.config/mpd/mpdstate
