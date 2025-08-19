@@ -3,11 +3,18 @@ return {
   event = { "BufNewFile", "BufReadPre" },
   opts = {
     formatters_by_ft = {
-      css = { "prettier" },
-      html = { "prettier" },
+      c = { "clang-format" },
+      cpp = { "clang-format" },
+      cs = { "clang-format" },
+      glsl = { "clang-format" },
+      gdscript = { "gdformat" },
+      java = { "google-java-format" },
+      kotlin = { "ktfmt" },
+      python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
+      rust = { "rustfmt" },
       latex = { "tex-fmt" },
-      markdown = { "prettier" },
-      python = { "ruff_format" },
+      lua = { "stylua" },
+      typst = { "typstyle" },
     },
     format_on_save = {
       async = false,
