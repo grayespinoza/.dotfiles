@@ -21,5 +21,10 @@ return {
       lsp_fallback = true,
       timeout_ms = 1000,
     },
+    formatters = {
+      ["ktfmt"] = {
+        prepend_args = { "--google-style" },
+      },
+    },
   },
 }
