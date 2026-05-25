@@ -1,6 +1,6 @@
 [[ $- != *i* ]] && return
 
-PS1="\[\e[38;5;199;1m\]\W/\[\e[0m\] "
+PS1="\[\e[38;2;254;100;11;1m\]\W/\[\e[0m\] "
 
 function source_if_exists() {
   if test -r "$1"; then
