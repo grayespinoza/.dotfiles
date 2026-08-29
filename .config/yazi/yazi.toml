@@ -3,7 +3,7 @@ show_hidden  = true
 show_symlink = true
 
 [opener]
-edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
+edit = [{ run = "nvim %s", block = true, for = "unix" }]
 
 [[plugin.prepend_fetchers]]
 url   = "*"
