@@ -1,5 +1,6 @@
 return {
   "projekt0n/github-nvim-theme",
+  commit = "c106c9472154d6b2c74b74565616b877ae8ed31d",
   name = "github-theme",
   lazy = false,
   priority = 1000,
