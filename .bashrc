@@ -2,16 +2,6 @@
 
 PS1="\[\e[38;2;254;100;11;1m\]\W/\[\e[0m\] "
 
-function source_if_exists() {
-  if test -r "$1"; then
-    source "$1"
-  fi
-}
-
-function mkcd() {
-  mkdir -p "$@" && cd "$_";
-}
-
 function y() {
   local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
   yazi "$@" --cwd-file="$tmp"
@@ -20,5 +10,3 @@ function y() {
   fi
   rm -f -- "$tmp"
 }
-
-source_if_exists ~/.dotfiles/.aliases
