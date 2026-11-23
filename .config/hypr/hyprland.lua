@@ -1,0 +1,6 @@
+require("hyprland.execs")
+require("hyprland.general")
+require("hyprland.rules")
+require("hyprland.aliases")
+require("hyprland.keybinds")
+require("hyprland.colors")
