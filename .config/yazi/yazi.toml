@@ -3,7 +3,17 @@ show_hidden  = true
 show_symlink = true
 
 [opener]
-edit = [{ run = "nvim %s", block = true, for = "unix" }]
+video = [{ run = "mpv %s", orphan = true, for = "unix" }]
+image = [{ run = "nsxiv %s", orphan = true, for = "unix" }]
+pdf   = [{ run = "zathura %s", orphan = true, for = "unix" }]
+edit  = [{ run = "nvim %s", block = true, for = "unix" }]
+
+[open]
+prepend_rules = [
+  { mime = "video/*", use = "video" },
+  { mime = "image/*", use = "image" },
+  { mime = "application/pdf", use = "pdf" },
+]
 
 [[plugin.prepend_fetchers]]
 url   = "*"
