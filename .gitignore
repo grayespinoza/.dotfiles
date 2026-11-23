@@ -2,3 +2,5 @@
 .config/yazi/package.toml
 .config/yazi/plugins/
 .config/mpd/mpdstate
+.config/rmpc/cache/
+.config/rmpc/lyrics/
