@@ -1,0 +1,6 @@
+(
+  address: "~/.config/mpd/socket",
+  cache_dir: Some("~/.config/rmpc/cache"),
+  lyrics_dir: Some("~/.config/rmpc/lyrics"),
+  wrap_navigation: true
+)
