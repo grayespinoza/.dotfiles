@@ -1,0 +1,25 @@
+{
+  "position": "top",
+  "height": 0,
+  "modules-left": ["hyprland/workspaces"],
+  "margin-top": 0,
+  "margin-bottom": 0,
+  "spacing": 0,
+  "exclusive": true,
+  "reload_style_on_change": true,
+
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    }
+  }
+}
